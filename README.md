@@ -24,6 +24,10 @@ GENERAL USAGE:
 
 - Navigate to the Realtime Database to view data (https://console.firebase.google.com/u/0/project/outbrand-ai-webcam-recorder/firestore/data/~2Fvideo~2FgIyRMeXslUpGaroJXhU5)
 
+## Screenshot
+
+<img width="1473" alt="Screenshot1" src="https://github.com/rmessett15/OutbrandAI/assets/120127903/edcea995-b44c-46fb-9d17-a7a384b3db47">
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
 ## Development server
