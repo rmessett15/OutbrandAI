@@ -2,11 +2,35 @@
 
 Coding submission for Outbrand AI interview - an FEAN Stack application that allows users to record videos directly from their webcam.
 
+This was quite the undertaking to try to get off the ground in 72 hours. I was unable to complete all application requirements and guidelines I was able to create a very intuitive and functional application that allows users to record a webcam video. A firebase database has been implemented and I have been able to successfully POST video recording data in the Realtime Database.
+
+One issue I have run into with the functionality of sending video recordings to the database however is the size of video recordings can only be roughly 1 second long to successfully be sent to Firebase, they are otherwise too large. Video compression would need to be implemented. I was also unable to complete user authentication as of now, and the ability for users to confirm or deny sending video data to the database. As of now data is submitted to the database upon the click of the stop recording button which can be seen live on the database itself and in the console. 
+
+All things considered I feel good about the work I have put forth seeing how I have never before used Angular, or Firebase.
+
+GENERAL USAGE:
+
+- Clone the repo: https://github.com/rmessett15/OutbrandAI
+
+- Open a terminal and run npi to install dependencies
+
+- Run nmp start to spin up the server and application
+
+- Intuitively click start recording button to start recording
+
+- Click stop recording to stop
+
+- Check console to see data thats been sent to Firebase ('will appear on 'stop recoding click')
+
+- Navigate to the Realtime Database to view data (https://console.firebase.google.com/u/0/project/outbrand-ai-webcam-recorder/firestore/data/~2Fvideo~2FgIyRMeXslUpGaroJXhU5)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+Implemented set up so user can also run `npm start` to spin up server and application will open automatically and continuously update upon save.
 
 ## Code scaffolding
 
