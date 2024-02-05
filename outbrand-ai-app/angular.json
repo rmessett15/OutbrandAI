@@ -27,9 +27,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "src/assets/main.js"
-            ],
+            "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
