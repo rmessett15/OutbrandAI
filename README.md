@@ -28,6 +28,12 @@ GENERAL USAGE:
 
 <img width="1473" alt="Screenshot1" src="https://github.com/rmessett15/OutbrandAI/assets/120127903/edcea995-b44c-46fb-9d17-a7a384b3db47">
 
+<img width="1495" alt="Screenshot2" src="https://github.com/rmessett15/OutbrandAI/assets/120127903/3ffa7d94-8954-4ca1-a919-958e625d3833">
+
+<img width="582" alt="Screenshot3" src="https://github.com/rmessett15/OutbrandAI/assets/120127903/859e48af-1cd9-4b4b-9bbe-139428f60b9b">
+
+<img width="1490" alt="Screenshot4" src="https://github.com/rmessett15/OutbrandAI/assets/120127903/26441322-9191-49c1-9b77-897e2009e67a">
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
 ## Development server
