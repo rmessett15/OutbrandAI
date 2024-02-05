@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "outbrand-ai-webcam-recorder": {
+      "hosting": {
+        "outbrand-ai-app": [
+          "outbrand-ai-webcam-recorder"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "outbrand-ai-webcam-recorder"
+  }
+}

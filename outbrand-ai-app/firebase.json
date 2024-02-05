@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "outbrand-ai-app",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-central1"
+      }
+    }
+  ]
+}

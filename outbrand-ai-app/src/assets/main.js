@@ -20,6 +20,7 @@ async function main() {
   const mediaRecorder = new MediaRecorder(stream, {
     // <3>
     mimeType: "video/webm",
+    
   });
 
   buttonStart.addEventListener("click", () => {
@@ -37,8 +38,9 @@ async function main() {
   mediaRecorder.addEventListener("dataavailable", (event) => {
     videoRecorded.src = URL.createObjectURL(event.data); // <6>
   });
-
+  
   // alert("Please confirm this is the video you would like to submit");
+
 }
 
 main();

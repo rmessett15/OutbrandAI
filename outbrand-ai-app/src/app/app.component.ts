@@ -11,3 +11,8 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'outbrand-ai-app';
 }
+
+  // constructor(private httpClient: HttpClient) {
+  //   onSubmit() {
+  //     this.httpClient.post("https://outbrand-ai-webcam-recorder-default-rtdb.firebaseio.com/", this.value)
+  //   }

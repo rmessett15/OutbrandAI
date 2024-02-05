@@ -95,6 +95,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "outbrand-ai-app:build:production",
+              "serveTarget": "outbrand-ai-app:serve:production"
+            },
+            "development": {
+              "buildTarget": "outbrand-ai-app:build:development",
+              "serveTarget": "outbrand-ai-app:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
